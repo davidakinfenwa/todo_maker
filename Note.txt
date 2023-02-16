@@ -10,3 +10,6 @@ GIT Process
 
 -- Committing to the server
     git commit -m "TYPE_THE_CHANGE_NOTE_HERE"
+
+-- pushing to Git Hub
+    git push
