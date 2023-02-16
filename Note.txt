@@ -1,0 +1,8 @@
+GIT Process 
+-- Create a branch 
+    git branch -c NAME_OF_BRANCH
+
+-- Switch to branch 
+    git checkout NAME_OF_BRANCH
+
+--
