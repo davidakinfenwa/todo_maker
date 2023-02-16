@@ -5,4 +5,8 @@ GIT Process
 -- Switch to branch 
     git checkout NAME_OF_BRANCH
 
---
+-- Add file to branch
+    git add .     
+
+-- Committing to the server
+    git commit -m "TYPE_THE_CHANGE_NOTE_HERE"
