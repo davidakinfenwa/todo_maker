@@ -7,9 +7,15 @@
 {% endif %}
 
 <hr>
-<h1>My Todo List</h1>
+<h1>My Todo List </h1>
 
 <h2><a href="{% url 'task-create'  %}"> Create Task</a></h2>
+
+<form action="" method="get">
+  
+    <input type="text" name="search-area" value={{search_input}}>
+    <input type="submit" value="Search">
+</form>
 <table>
     <tr>
         <th>Item</th>
